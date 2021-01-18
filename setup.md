@@ -24,6 +24,9 @@ $HOME/.exrc
 $VIMRUNTIME/defaults.vim
 
 
+# I don't want load anything
+vim -u NONE or vim -u NORC
+
 # enable file type
 :set filetype?
 :filetype plugin indent on
